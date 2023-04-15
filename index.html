@@ -64,6 +64,28 @@
       .plans:hover{
         background-color: rgb(214, 250, 255);
       }
+
+      @media screen and (min-width: 400px) and (max-width: 900px){
+      
+
+        .h2-banner {
+          font-size:34px !important;
+        }
+
+        .p-banner {
+          font-size: 17px;
+        }
+
+        #services{
+          padding-left:20%;
+          padding-top: 15%;
+        }
+
+        .footer-h3{
+          margin-top:30px;
+        }
+        
+      }
     </style>
   </head>
 
@@ -113,11 +135,11 @@
       </nav>
 
       <div class="row" style="padding-top: 6%">
-        <div class="col-lg-6 col-md-12 col-sm-12 text-light ps-5 mt-5">
-          <h2 style="font-size: 60px">
+        <div class=" col-lg-6 col-md-12 col-sm-12 text-light ps-5 mt-5">
+          <h2 class="h2-banner" style="font-size: 60px">
             Your Lightning Fast <br />Delivery Partner
           </h2>
-          <p class="ms-1 me-5">
+          <p class="p-banner ms-1 me-5">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione
             dignissimos sapiente illo quam ipsum rem laboriosam blanditiis
             facere voluptatem maiores ad mollitia, cupiditate, animi
@@ -181,7 +203,7 @@
 
       <!--------------ABOUT US-------------------->
       <div id="about" class="row ps-5 bg-light" style="margin-top: 100px">
-        <div class="col-lg-6 col-md-12 col-sm-12">
+        <div class="about col-lg-6 col-md-12 col-sm-12">
           <h2
             class="me-4"
             style="
@@ -249,9 +271,9 @@
 
       <!----OUR SERVICES-->
         <!--1-->
-        <div id="services" class="row id="services" pt-2" style="margin-left: 2%;margin-top:7%">
+        <div id="services" class="row style="margin-left: 2%;margin-top:7%">
           <h2
-          clas="container"
+          clas="h2-services container"
           style="
             text-transform: uppercase;
             font-weight: bold;
@@ -262,7 +284,7 @@
           Our services
         </h2>
           <div
-            class="card col-lg-3 col-md-6 col-sm-12 m-3"
+            class="card-service card col-lg-3 col-md-6 col-sm-12 m-3"
             style="
               width: 18rem;
              
@@ -282,7 +304,7 @@
 
           <!----2-->
           <div
-            class="card col-lg-3 col-md-6 col-sm-12 m-3"
+            class="card-service card col-lg-3 col-md-6 col-sm-12 m-3"
             style="width: 18rem"
           >
             <img src="images/logistics-service.jpg" />
@@ -299,7 +321,7 @@
 
           <!----3-->
           <div
-            class="card col-lg-3 col-md-6 col-sm-12 m-3"
+            class="card-service card col-lg-3 col-md-6 col-sm-12 m-3"
             style="width: 18rem"
           >
             <img src="images/trucking-service.jpg" />
@@ -316,7 +338,7 @@
 
           <!--4-->
           <div
-            class="card col-lg-3 col-md-6 col-sm-12 m-3"
+            class="card-service card col-lg-3 col-md-6 col-sm-12 m-3"
             style="width: 18rem"
           >
             <img src="images/packaging-service.jpg" />
@@ -479,7 +501,7 @@
       <h2 class="container-fluid pb-5" style="text-transform: uppercase;color:#0e1d34;font-weight: bold;padding-top:100px">Frequently asked questions</h2>
 
       <!--question 1-->
-      <div class="row container" style="width:35%">
+      <div class="row container faq" style="width:35%">
         <div class="col-lg-12">
       <button class="mb-3 text-light" data-bs-toggle="collapse" data-bs-target="#question1" style="border: 2px solid #0e1d34; background-color:#0e1d34;border-radius:8px;padding:10px 20px"> Am I allowed to request a delivery to another country?</button>
 
@@ -513,7 +535,7 @@
       <div class="container col-lg-12">
       <button class="mb-3 text-light" data-bs-toggle="collapse" data-bs-target="#question4" style="border: 2px solid #0e1d34; background-color:#0e1d34;border-radius:8px;padding:10px "> Can I request more than one delivery in the same day?</button>
 
-      <div id="question4" class="collapse">
+      <div id="question4" class="collapse" style="padding:110px">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam ducimus aliquid cupiditate eligendi. Aliquam voluptatem, dolorum doloremque officia officiis saepe in minus, aspernatur cupiditate nulla, sunt unde obcaecati iste distinctio.</p>
       </div>
       </div>
@@ -529,23 +551,23 @@
             <div style="border-bottom: 2px solid white;width: 22%"></div>
             <p class="pt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui blanditiis adipisci error corrupti voluptate cum quaerat, vero ab aperiam rem impedit rerum ex, dolores labore aliquam eos accusantium reprehenderit deserunt?</p>
            
-            <img src="images/d (2).png" width="40%">
+            <img src="images/d (2).png" width="25%">
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12  text-light ms-4">
-            <h3>Get in touch</h3>
+          <div class="col-lg-3 col-md-6 col-sm-12  text-light ms-1">
+            <h3 class="footer-h3">Get in touch</h3>
             <div style="border-bottom: 2px solid white;width: 22%"></div>
             <div class="socialIcon pt-3 d-flex">
-              <img src="images/email-icon.png" width="10%" style="opacity:0.7;object-fit: contain;">
+              <img src="images/email-icon.png" width="7%" style="opacity:0.7;object-fit: contain;">
               <p class="pt-3 ps-3">email@myemail.com</p>
             </div>
             <div class="socialIcon  d-flex">
-              <img src="images/local.png" width="10%" style="object-fit: contain;">
+              <img src="images/local.png" width="7%" style="object-fit: contain;">
               <p class="pt-3 ps-3">123 Street, New York, USA</p>
             </div>
 
           
           </div>
-          <div class="col-lg-3 col-md-6 col-sm-12 text-light ms-4">
+          <div class="col-lg-3 col-md-6 col-sm-12 text-light ms-1">
           <div>
             <label class="form-label">Email address</label>
             <input type="email" class="form-control" id="email">
