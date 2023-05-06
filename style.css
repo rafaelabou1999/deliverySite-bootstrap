@@ -35,7 +35,8 @@ header {
 }
 
 .plans:hover {
-  background-color: rgb(214, 250, 255);
+  background-color: #0e1d34;
+  color: white;
 }
 
 .plans {
