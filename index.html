@@ -8,7 +8,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-
+    <link href="style.css" rel="stylesheet">
     <!---fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,73 +25,7 @@
       crossorigin="anonymous"
     />
 
-    <style>
-      * {
-        font-family: 'Open Sans', sans-serif;
-
-      }
-      header {
-        background-color: #0e1d34;
-        background-image: url(images/hero-bg.png);
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        height: 700px;
-      }
-
-      .icon {
-        opacity: 0.9;
-      }
-      .icon:hover {
-        opacity: 1;
-      }
-
-      .card{
-        transition: transform .9s; /* Animation */
-      }
-      .card:hover {
-        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-      }
-
-      .cta {
-        background-image: url(images/cta-bg.jpg);
-        background-position: right;
-        background-attachment: fixed;
-        height:300px;
-      opacity:0.8;
-      }
-
-      .plans:hover{
-        background-color: rgb(214, 250, 255);
-      }
-
-      @media screen and (min-width: 300px) and (max-width: 900px){
-      
-
-        .h2-banner {
-          font-size:30px !important;
-        }
-
-        .p-banner {
-          font-size: 17px;
-        }
-
-        #services{
-          padding-left:15℅;
-          padding-top: 15%;
-        }
-
-        .footer-h3{
-          margin-top:30px;
-        }
-        
-        .image{
-           text-align: center;
-           margin-right: 3%;
-
-         }
-      }
-    </style>
+    
   </head>
 
   <body class="container-fluid">
@@ -438,10 +372,10 @@
 
       <!---PRICING-->
       <h2 id="prices" style="font-size:40px; color:#0e1d34; font-weight:bold;text-transform: uppercase;" class="pt-5 mt-5 ms-3">Prices</h2>
-      <div class="container row pt-2 ">
+      <div class="container container-plans row pt-1 ">
         <div class="col-lg-4">
             <div class="card plans">
-                <h2 class="card-title ms-3 pt-4">Free plan</h2>
+                <h2 class="card-title  ms-3 pt-1 mt-5">Free plan</h2>
                 <h4 class="card-subtitle ms-3"><span class="text-info" style="font-size:50px">$0</span><span class="text-muted">/month</span></h4>
               <div class="card-body">
                 <div class="check d-flex">
@@ -456,8 +390,8 @@
             </div>
          </div>
         <div class="col-lg-4">
-            <div class="card plans">
-                <h2 class="card-title ms-3 pt-4 ">Bussiness plan</h2>
+            <div class="card plans" >
+                <h2 class="card-title ms-3 pt-1 mt-5 ">Bussiness plan</h2>
                 <h4 class="card-subtitle ms-3"><span class="text-info" style="font-size:50px">$29</span><span class="text-muted">/month</span></h4>
               <div class="card-body ">
                 <div class="check d-flex">
@@ -481,7 +415,7 @@
          </div>
         <div class="col-lg-4">
             <div class="card plans">
-                <h2 class="card-title ms-3 pt-4">Enterprise plan</h2>
+                <h2 class="card-title mt-4 pt-1 ms-3 pt-4">Enterprise plan</h2>
                 <h4 class="card-subtitle ms-3"><span class="text-info" style="font-size:50px">$100</span><span class="text-muted">/month</span></h4>
               <div class="card-body">
                 <div class="check d-flex">
