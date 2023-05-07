@@ -50,6 +50,21 @@ header {
 .container-plans {
   margin-left: 100px !important;
 }
+
+#question1,
+#question2,
+#question3,
+#question4 {
+  background-color: rgb(250, 247, 247);
+  color: rgb(0, 0, 0);
+  border: 4px solid #0e1d34 !important;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  margin-left: 4%;
+  width: 90%;
+  padding: 20px;
+}
+
 @media screen and (min-width: 300px) and (max-width: 900px) {
   .h2-banner {
     font-size: 30px !important;
