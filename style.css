@@ -10,7 +10,7 @@ header {
   height: 700px;
 }
 
-#nav {
+nav {
   position:fixed;
   top:0;
   z-index: 5;
