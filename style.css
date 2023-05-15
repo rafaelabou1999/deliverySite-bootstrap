@@ -10,6 +10,10 @@ header {
   height: 700px;
 }
 
+#nav {
+  position:fixed;
+  top:0;
+}
 .icon {
   opacity: 0.9;
 }
